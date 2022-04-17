@@ -1,0 +1,35 @@
+/*  */
+@font-face {
+    font-family: Monterrat-v23R;
+    src: url(/Fonts/montserrat-v23-latin-regular.woff2);
+}
+@font-face {
+    font-family: Monterrat-v23-600;
+    src: url(/Fonts/montserrat-v23-latin-600.woff2);
+}
+@font-face {
+    font-family: Monterrat-v23-800;
+    src: url(/Fonts/montserrat-v23-latin-800.woff2);
+}
+/*  */
+@font-face {
+    font-family: Work-sans-v16R;
+    src: url(/Fonts/work-sans-v16-latin-regular.woff2);
+}
+@font-face {
+    font-family: Work-sans-v16-600;
+    src: url(/Fonts/work-sans-v16-latin-600.woff2);
+}
+@font-face {
+    font-family: Work-sans-v16-800;
+    src: url(/Fonts/work-sans-v16-latin-800.woff2);
+}
+/*  */
+:root {
+    --font-family-MR: Monterrat-v23R;
+    --font-family-WR: Work-sans-v16R;
+}
+
+
+
+
