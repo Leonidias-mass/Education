@@ -29,7 +29,29 @@
     --font-family-MR: Monterrat-v23R;
     --font-family-WR: Work-sans-v16R;
 }
-
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+/* header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container__list {
+    display: flex;
+} 
+.header-container__item:not(:first-child) {
+    margin-left: 25px;
+}              
 
 
 
