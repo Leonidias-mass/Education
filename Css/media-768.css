@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .header-container {
+        justify-content: space-around;
+    }
+
+    .header-container__list {
+        display: none;
+    }
+
+    h1.header-container__title,
+    a.header-container__burger {
+        display: block;
+    }
+
+    .header-container__title {
+        font-family: Work-sans-v16-800;
+        font-size: 26px;
+        color: #252c3a;
+    }
+}
